@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: UIPrefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 87a2227651963a84bb70d3bd764ce4db
+  m_SerializeEntries:
+  - m_GUID: b0a95bc909e9be843b3e3832ef1717e8
+    m_Address: Assets/_ABs/UIPrefabs/LoginPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPrefabs
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b6162f178a6e03a47b3c3a09d631816c, type: 2}
+    - {fileID: 11400000, guid: 832c54f2c82876144afe544730e4eb0d, type: 2}

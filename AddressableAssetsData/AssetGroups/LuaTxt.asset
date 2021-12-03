@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LuaTxt
+  m_EditorClassIdentifier: 
+  m_GroupName: LuaTxt
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8ad3c1ebb91f4fa468f2220cec8f60da
+  m_SerializeEntries:
+  - m_GUID: 7c6aa7ad32cb3af4ebbad81d8c04c8bd
+    m_Address: Assets/_ABs/LuaTxt/Core.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: 3fe32c35fa77615459e61827c20b3345
+    m_Address: Assets/_ABs/LuaTxt/GameStartUp.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: 20cb5b4c864146843bb842fe40c4bd59
+    m_Address: Assets/_ABs/LuaTxt/UI/LuaTestScript.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: 100bb0f6ad58fcf4fa044525553eed12
+    m_Address: Assets/_ABs/LuaTxt/UI/LoginPanel.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: 9c7d680a47659a244a1a00000218185b
+    m_Address: Assets/_ABs/LuaTxt/Core/class.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b690e17973b73f542bdbebd903ca2af4, type: 2}
+    - {fileID: 11400000, guid: 32ee1a65c1b019141b3aaff051dc5ac1, type: 2}
