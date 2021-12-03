@@ -17,8 +17,28 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 129b577474719e147bccd2216a0dc7c2
   m_SerializeEntries:
-  - m_GUID: 5088b7792f256184f9a4d4e3860f3108
-    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab1.prefab
+  - m_GUID: 2a2134fa9b329ca42a7aecaee352c997
+    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c895e7b377365b349a03958d31e4500d
+    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f032c7beddb55c64fb29ee3b1d5751d1
+    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab121.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1579ac70bd584c74bb3fbe7b3d14bb96
+    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab122.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6b514abf6cd626f479afc759d9a502c6
+    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab123.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalDontChange

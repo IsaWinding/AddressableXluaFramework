@@ -17,8 +17,18 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 9d45a0e3e2907a24d9bfe6658095666b
   m_SerializeEntries:
-  - m_GUID: 88a8cb00f04860146bddff44db0e6dae
-    m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab1.prefab
+  - m_GUID: c0650e827bf94124d8808d72e8425473
+    m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RemoteDontChange
+  - m_GUID: 46e4b9ee41d83c146b498d1dd4314030
+    m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RemoteDontChange
+  - m_GUID: a513d6139f7bfea40af04c289d6baf19
+    m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab13.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - RemoteDontChange

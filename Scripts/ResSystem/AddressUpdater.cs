@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.AddressableAssets;
+using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -15,6 +17,15 @@ public class AddressUpdater : MonoBehaviour
     {
         UpdateCatalog();
         
+    }
+    private void SetRemoteLoadPath()
+    {
+        string remoteLoadPath = "http://localhost/TapTap";
+        AddressableAssetSettings m_Settings = AddressableAssetSettingsDefaultObject.Settings;
+        string profileId = m_Settings.profileSettings.GetProfileId("Dynamic");
+        m_Settings.profileSettings.SetValue(profileId, AddressableAssetSettings.kRemoteLoadPath, remoteLoadPath);
+        Debug.Log(string.Format("…Ë÷√Addressables Groups ProfileÕÍ≥…\n{0}:{1}"
+            , AddressableAssetSettings.kRemoteLoadPath, remoteLoadPath));
     }
 
     /// <summary>

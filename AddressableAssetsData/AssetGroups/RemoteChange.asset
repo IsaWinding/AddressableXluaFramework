@@ -22,6 +22,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - RemoteChange
+  - m_GUID: 2838a60e0502c9b4f80d265e563ae31c
+    m_Address: Assets/_ABs/RemoteChange/Prefabs/Prefab11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RemoteChange
+  - m_GUID: 26c45e2b10cb91f4eb712e0a27dbc6df
+    m_Address: Assets/_ABs/RemoteChange/Prefabs/Prefab12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RemoteChange
+  - m_GUID: 33c3808467dfb0c4db91cf4e39cc63e6
+    m_Address: Assets/_ABs/RemoteChange/Prefabs/Prefab13.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RemoteChange
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
   m_SchemaSet:
