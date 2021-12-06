@@ -15,19 +15,14 @@ MonoBehaviour:
   m_GroupName: RemoteDontChange
   m_Data:
     m_SerializedData: []
-  m_GUID: 9d45a0e3e2907a24d9bfe6658095666b
+  m_GUID: 9fcb481bc68bedf498abe4a431eec66b
   m_SerializeEntries:
-  - m_GUID: c0650e827bf94124d8808d72e8425473
+  - m_GUID: 8993eba47b6b092479b5072221fb3b44
     m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab11.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - RemoteDontChange
-  - m_GUID: 46e4b9ee41d83c146b498d1dd4314030
-    m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab12.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - RemoteDontChange
-  - m_GUID: a513d6139f7bfea40af04c289d6baf19
+  - m_GUID: a84257733f75b8c40b86f0a63d7c4be3
     m_Address: Assets/_ABs/RemoteDontChange/Prefabs/Prefab13.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
@@ -36,5 +31,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: f1aad4edefb90fb4a94d43b387cea2aa, type: 2}
-    - {fileID: 11400000, guid: 7cd0b4a10295e7844b5ff79171fda587, type: 2}
+    - {fileID: 11400000, guid: c5dcaef5b73b3b143ab9e6018ea0d20d, type: 2}
+    - {fileID: 11400000, guid: 71dc5b980bc279e4f958717b80d11819, type: 2}

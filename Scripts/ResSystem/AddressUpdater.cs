@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.AddressableAssets;
-using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.UI;
 
 public class AddressUpdater : MonoBehaviour
@@ -15,18 +14,48 @@ public class AddressUpdater : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Addressables.InternalIdTransformFunc = InternalIdTransformFunc;
         UpdateCatalog();
         
     }
-    private void SetRemoteLoadPath()
+
+    private string InternalIdTransformFunc(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
     {
-        string remoteLoadPath = "http://localhost/TapTap";
-        AddressableAssetSettings m_Settings = AddressableAssetSettingsDefaultObject.Settings;
-        string profileId = m_Settings.profileSettings.GetProfileId("Dynamic");
-        m_Settings.profileSettings.SetValue(profileId, AddressableAssetSettings.kRemoteLoadPath, remoteLoadPath);
-        Debug.Log(string.Format("设置Addressables Groups Profile完成\n{0}:{1}"
-            , AddressableAssetSettings.kRemoteLoadPath, remoteLoadPath));
+        //判定是否是一个AB包的请求
+        if (location.Data is AssetBundleRequestOptions)
+        {
+            //PrimaryKey是AB包的名字
+            //path就是StreamingAssets/Bundles/AB包名.bundle,其中Bundles是自定义文件夹名字,发布应用程序时,复制的目录
+            string InternalId_ = location.InternalId;
+            if (InternalId_.Contains("192.168.1.126"))
+            {
+                //Debug.LogError("InternalId_" + InternalId_);
+            }
+            InternalId_ = InternalId_.Replace("192.168.1.126", "192.168.1.27");
+            //Debug.LogError("InternalId_"+ InternalId_);
+          
+            return InternalId_;
+        }
+        else
+        {
+            string InternalId_ = location.InternalId;
+            if (InternalId_.Contains("192.168.1.126"))
+            {
+                //Debug.LogError("InternalId_" + InternalId_);
+            }
+            InternalId_ = InternalId_.Replace("192.168.1.126", "192.168.1.27");
+            return InternalId_;
+        }
     }
+    //private void SetRemoteLoadPath()
+    //{
+    //    string remoteLoadPath = "http://localhost/TapTap";
+    //    AddressableAssetSettings m_Settings = AddressableAssetSettingsDefaultObject.Settings;
+    //    string profileId = m_Settings.profileSettings.GetProfileId("Dynamic");
+    //    m_Settings.profileSettings.SetValue(profileId, AddressableAssetSettings.kRemoteLoadPath, remoteLoadPath);
+    //    Debug.Log(string.Format("设置Addressables Groups Profile完成\n{0}:{1}"
+    //        , AddressableAssetSettings.kRemoteLoadPath, remoteLoadPath));
+    //}
 
     /// <summary>
     /// 对比更新Catalog

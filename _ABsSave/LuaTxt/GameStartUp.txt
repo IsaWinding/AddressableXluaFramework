@@ -1,0 +1,8 @@
+require("Core")
+
+CS.LuaHelper.Test(function()
+    print("CS.LuaHelper.Test1")
+    print("CS.LuaHelper.Test2")
+    print("CS.LuaHelper.UpdateNes ????")
+    CS.UICtrlManager.OpenLoginPanel()
+end)

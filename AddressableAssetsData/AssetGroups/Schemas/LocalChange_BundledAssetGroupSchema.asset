@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5d17a21594effb4e9591490b009e7aa, type: 3}
   m_Name: LocalChange_BundledAssetGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: 497d626d8a4c48a4b8a9395e62c68493, type: 2}
+  m_Group: {fileID: 11400000, guid: 04e4e9796465af640b9feea87ba9ffcd, type: 2}
   m_InternalBundleIdMode: 1
   m_Compression: 1
   m_IncludeAddressInCatalog: 1
@@ -26,7 +26,7 @@ MonoBehaviour:
     m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
   m_ForceUniqueProvider: 0
   m_UseAssetBundleCache: 1
-  m_UseAssetBundleCrc: 1
+  m_UseAssetBundleCrc: 0
   m_UseAssetBundleCrcForCachedBundles: 1
   m_UseUWRForLocalBundles: 0
   m_Timeout: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
     m_Id: de65cdc43f5768948b7f796d66d7d2b9
   m_LoadPath:
     m_Id: 4d5ecfa62cbf6d64f9faf785ce3121a9
-  m_BundleMode: 1
+  m_BundleMode: 0
   m_DataStreamProcessorType:
     m_AssemblyName: 
     m_ClassName: 
