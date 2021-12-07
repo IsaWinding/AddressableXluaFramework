@@ -1,5 +1,7 @@
 using UnityEngine.UI;
+using XLua;
 
+[Hotfix]
 public class LoginPanel : UIBase
 {
     public override void OnInit()

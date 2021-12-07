@@ -4,7 +4,8 @@ using UnityEngine;
 using XLua;
 
 [LuaCallCSharp]
-public static  class LuaHelper
+[Hotfix]
+public static class LuaHelper
 {
     [Hotfix]
     public static void Test(System.Action pAc)

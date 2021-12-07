@@ -42,6 +42,36 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalChange
+  - m_GUID: 2eb22bfdbc9f4894f9b644f3829f4353
+    m_Address: Assets/_ABs/LocalChange/Common_Atlas/bt_home.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+    - LocalChange
+  - m_GUID: 6489d488be655364f86912b5115a924b
+    m_Address: Assets/_ABs/LocalChange/Common_Atlas/bt_shaixuan_xuanzhong.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+    - LocalChange
+  - m_GUID: 34fd20cc2c3b0b343864a546f2dc12ef
+    m_Address: Assets/_ABs/LocalChange/Common_Atlas/bt_s_big1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+    - LocalChange
+  - m_GUID: 256ccd6339cfc03488118d5ffa75d164
+    m_Address: Assets/_ABs/LocalChange/Common_Atlas/bt_s_big2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+    - LocalChange
+  - m_GUID: b0a95bc909e9be843b3e3832ef1717e8
+    m_Address: Assets/_ABs/LocalChange/UIPrefabs/LoginPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPrefabs
+    - LocalChange
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
   m_SchemaSet:

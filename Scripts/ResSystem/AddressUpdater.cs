@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 public class AddressUpdater : MonoBehaviour
 {
+    private bool useNewIp = false;
+    private string resServerOriIp = "192.168.1.126";//资源服务器的初始测试地址
+    private string resServerNewIp = "192.168.1.27";//不同分包设置的不同资源服务器地址
     private string str;
     public Text outputText;
     private List<object> _updateKeys = new List<object>();
@@ -27,23 +30,23 @@ public class AddressUpdater : MonoBehaviour
             //PrimaryKey是AB包的名字
             //path就是StreamingAssets/Bundles/AB包名.bundle,其中Bundles是自定义文件夹名字,发布应用程序时,复制的目录
             string InternalId_ = location.InternalId;
-            if (InternalId_.Contains("192.168.1.126"))
+            if (useNewIp && InternalId_.Contains(resServerOriIp))
             {
                 //Debug.LogError("InternalId_" + InternalId_);
+                InternalId_ = InternalId_.Replace(resServerOriIp, resServerNewIp);
             }
-            InternalId_ = InternalId_.Replace("192.168.1.126", "192.168.1.27");
             //Debug.LogError("InternalId_"+ InternalId_);
-          
             return InternalId_;
         }
         else
         {
             string InternalId_ = location.InternalId;
-            if (InternalId_.Contains("192.168.1.126"))
+            if (useNewIp && InternalId_.Contains(resServerOriIp))
             {
                 //Debug.LogError("InternalId_" + InternalId_);
+                InternalId_ = InternalId_.Replace(resServerOriIp,resServerNewIp);
             }
-            InternalId_ = InternalId_.Replace("192.168.1.126", "192.168.1.27");
+            
             return InternalId_;
         }
     }
