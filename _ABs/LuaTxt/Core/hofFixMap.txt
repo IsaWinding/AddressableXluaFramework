@@ -6,7 +6,7 @@ hofFixMap.StartLoadFix = function()
         print("HotFix cs LuaHelper Test function")
     end)
     xlua.hotfix(CS.LoginPanel, 'OnForward', function(self)
-        self.gameObject.transform.localPosition =  Vector3(7,8,9)
+        self.gameObject.transform.localPosition =  Vector3(0,0,0)
         print("HotFix cs LoginPanel  OnInit function")
     end)
 end
