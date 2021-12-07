@@ -18,7 +18,7 @@ public class UICtrlBase
 	/// </summary>
 	/// 
 	private object data_;//Ctrl层持有的数据
-	private int loadAssetId;//资源加载者
+	private GameObject panelGO;//资源prefab
 	protected UIBase uiBase;//面板
 	public void DoInit(){
 		Sender = new StringKeySender();
@@ -37,23 +37,31 @@ public class UICtrlBase
 	{
 		pCb.Invoke(true);
 	}
+	private bool isLoading = false;
 	public void ResLoad(System.Action<UnityEngine.GameObject> pCB,Transform pSubRoot)//资源加载
 	{
-		loadAssetId = AddressLoadManager.LoadAsync(Path,(oGO,pAssetId) => {
-			if (oGO != null){
-				var go = oGO as GameObject;
-				uiBase = go.GetComponent<UIBase>();
-				uiBase.SetSender(Sender);
-				go.transform.SetParent(pSubRoot);
-				go.transform.localPosition = Vector3.zero;
-				go.transform.localScale = Vector3.one;
-			}
-			pCB.Invoke(oGO as GameObject);
-		});
+		if (!isLoading)
+		{
+			isLoading = true;
+			AssetManager.Instance.InstantiateAsync(Path, (oGO) => {
+				if (oGO != null)
+				{
+					var go = oGO as GameObject;
+					uiBase = go.GetComponent<UIBase>();
+					uiBase.SetSender(Sender);
+					go.transform.SetParent(pSubRoot);
+					go.transform.localPosition = Vector3.zero;
+					go.transform.localScale = Vector3.one;
+				}
+				panelGO = oGO;
+				pCB.Invoke(oGO as GameObject);
+				isLoading = false;
+			});
+		}			
 	}
 	public void UnLoadRes()//资源卸载
 	{
-		AddressLoadManager.UnLoadByAssetId(loadAssetId);
+		AssetManager.Instance.FreeGameObject(panelGO);
 	}
 	public void OnHide()
 	{

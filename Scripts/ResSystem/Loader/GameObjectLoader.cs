@@ -60,7 +60,7 @@ class GameObjectLoader : BaseLoader
             if (this.prefab != null)
             {
                 var obj = GameObject.Instantiate(this.prefab) as GameObject;
-                obj.name = this.name;
+                //obj.name = this.name;
                 this.references.Add(obj);
                 return obj;
             }
@@ -68,7 +68,7 @@ class GameObjectLoader : BaseLoader
             {
                 this.prefab = base.Load<GameObject>();
                 var obj = GameObject.Instantiate(this.prefab) as GameObject;
-                obj.name = this.name;
+                //obj.name = this.name;
                 base.Release();
                 this.references.Add(obj);
                 return obj;
