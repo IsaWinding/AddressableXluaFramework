@@ -74,20 +74,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - LocalChange
     - LocalDontChange
-  - m_GUID: 6489d488be655364f86912b5115a924b
-    m_Address: Assets/_ABs/LocalDontChange/Common_Atlas/bt_shaixuan_xuanzhong.png
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Common_Atlas
-    - LocalChange
-    - LocalDontChange
-  - m_GUID: b0a95bc909e9be843b3e3832ef1717e8
-    m_Address: Assets/_ABs/LocalDontChange/UIPrefabs/LoginPanel.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - UIPrefabs
-    - LocalChange
-    - LocalDontChange
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
   m_SchemaSet:
