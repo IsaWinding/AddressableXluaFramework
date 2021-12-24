@@ -22,12 +22,6 @@ namespace XLua.CSObjectWrap
         static void wrapInit0(LuaEnv luaenv, ObjectTranslator translator)
         {
         
-            translator.DelayWrapLoader(typeof(LuaHelper), LuaHelperWrap.__Register);
-        
-        
-            translator.DelayWrapLoader(typeof(UICtrlManager), UICtrlManagerWrap.__Register);
-        
-        
             translator.DelayWrapLoader(typeof(object), SystemObjectWrap.__Register);
         
         
@@ -110,6 +104,12 @@ namespace XLua.CSObjectWrap
         
         
             translator.DelayWrapLoader(typeof(UnityEngine.Debug), UnityEngineDebugWrap.__Register);
+        
+        
+            translator.DelayWrapLoader(typeof(UICtrlManager), UICtrlManagerWrap.__Register);
+        
+        
+            translator.DelayWrapLoader(typeof(LuaHelper), LuaHelperWrap.__Register);
         
         
             translator.DelayWrapLoader(typeof(Tutorial.BaseClass), TutorialBaseClassWrap.__Register);

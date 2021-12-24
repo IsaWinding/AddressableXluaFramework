@@ -42,6 +42,26 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - LuaTxt
+  - m_GUID: d5220abff14503a4593d5c05029ed9c6
+    m_Address: Assets/_ABs/LuaTxt/xlua/util.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: b6a449db15c053346ad7554690c9a3ae
+    m_Address: Assets/_ABs/LuaTxt/tdr/tdr.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: 81ac7e9537172d7479ae9aaf1ac79b4a
+    m_Address: Assets/_ABs/LuaTxt/perf/memory.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
+  - m_GUID: 12a5dcfdd9224d44189c8b906729fe18
+    m_Address: Assets/_ABs/LuaTxt/perf/profiler.txt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaTxt
   - m_GUID: 62fa5f044ee34374295bea1aa76f101e
     m_Address: Assets/_ABs/LuaTxt/Core/hofFixMap.txt
     m_ReadOnly: 0
