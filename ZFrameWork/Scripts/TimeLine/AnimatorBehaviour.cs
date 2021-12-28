@@ -24,7 +24,9 @@ public class AnimatorBehaviour : BaseBehaviour
 		}
 		else
 		{
+#if UNITY_EDITOR
 			AnimationMode.SampleAnimationClip(target_, clip, passTime);
+#endif
 		}
 	}
 }

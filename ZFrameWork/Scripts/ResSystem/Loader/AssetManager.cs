@@ -21,11 +21,19 @@ public class AssetManager
     private Dictionary<GameObject, GameObjectLoader> lookup = new Dictionary<GameObject, GameObjectLoader>();
     public AssetManager()
     {
-        UnityEngine.Transform poolNode = new GameObject("[Asset Pool]").transform;
+        UnityEngine.GameObject poolNodeGo;
+        poolNodeGo = GameObject.Find("[Asset Pool]");
+        if (poolNodeGo == null)
+        {
+            poolNodeGo = new GameObject("[Asset Pool]");
+          
+        }
+        UnityEngine.Transform poolNode = poolNodeGo.transform;
         poolNode.transform.localPosition = Vector3.zero;
         poolNode.transform.localScale = Vector3.one;
         poolNode.transform.localRotation = Quaternion.identity;
-        GameObject.DontDestroyOnLoad(poolNode);
+        if (Application.isPlaying)
+            GameObject.DontDestroyOnLoad(poolNode);
         //启动定时器，定时清理缓存池里的缓存
     }
 
@@ -74,6 +82,19 @@ public class AssetManager
             this.lookup.Add(obj, loader);
             onFinish.Invoke(obj);
         }
+    }
+    public Object InstanceInEditor(string path,bool pIsGameObject)
+    {
+#if UNITY_EDITOR
+        var obj = UnityEditor.AssetDatabase.LoadAssetAtPath<Object>(path);
+        if (pIsGameObject)
+        {
+            var go = GameObject.Instantiate<GameObject>(obj as GameObject);
+            return go;
+        }
+        return obj;
+#endif
+        return null;
     }
     /// <summary>
     /// 同步实例化GameObject

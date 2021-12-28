@@ -44,35 +44,1422 @@ MonoBehaviour:
     m_SerializedLabels:
     - LocalChange
     - LocalDontChange
-  - m_GUID: ae59733ee986c154ebafd8584d12848a
-    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab11.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalChange
-    - LocalDontChange
-  - m_GUID: e32e772967c92574c8105e7c2fa65399
-    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab12.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalChange
-    - LocalDontChange
-  - m_GUID: 4752110e8b6821f44b999a6c0d19dc17
-    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab121.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalChange
-    - LocalDontChange
-  - m_GUID: 7a383d9620cf9bf4182cb05231b48c48
-    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Prefab122.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalChange
-    - LocalDontChange
   - m_GUID: 2e23ea931e843bf4e87d0afd2609ad9b
     m_Address: Assets/_ABs/LocalDontChange/Scenes/gameLv01.unity
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalChange
+    - LocalDontChange
+  - m_GUID: 6489d488be655364f86912b5115a924b
+    m_Address: Assets/_ABs/LocalDontChange/Common_Atlas/bt_shaixuan_xuanzhong.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+    - LocalChange
+    - LocalDontChange
+  - m_GUID: cdecaee92b9513c4a960cc7006b42ccd
+    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 74da5fe6c62212e4f8016bef4e47a403
+    m_Address: Assets/_ABs/LocalDontChange/Scenes/gameLv02.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalChange
+    - LocalDontChange
+  - m_GUID: 7146029b239e44e4f9d1472322945472
+    m_Address: Assets/_ABs/LocalDontChange/TLAssets/TL_LoginPanel.playable
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b0a95bc909e9be843b3e3832ef1717e8
+    m_Address: Assets/_ABs/LocalDontChange/UIPrefabs/LoginPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPrefabs
+    - LocalChange
+    - LocalDontChange
+  - m_GUID: 775f7b7fcef7c494498e29084821ccd3
+    m_Address: Assets/_ABs/LocalDontChange/Mats/mat_unlit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d92521b671eee824b8901e5ebdced59d
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/chongji 1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4cb04c506de92984a84c19f4ab73dcd6
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/chongji 2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8154acf5a019e3747aabde3e1c09812e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/chongji 4.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ad42690968f6e534bbf5716fa2f50284
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/chongji 5.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 251bbadc5a4a9bf4c8f3e54f87dad2b9
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/chongji.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cdad2260d2be8fc48912c0752c33c837
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/DAO1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a58ac6df7e568d446a2d5d84b95c06c4
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/DAO2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: be320333546daad4fb9c7a28cbb4b718
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/DAO3.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0887422c86e64e743966936c06e68823
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/DAO5.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6c5205b97b5569843aff193f679abe67
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/eye.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: fd47d94e840159c409fb1c201d83f59c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Fx_Kp_Attack_6.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: dd418bdcfcccfe64fa7493c1a367d623
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Fx_kp_limitbreak_2.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f52fd222ee09e62428149a6bc22b6a90
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Fx_kp_yanj 1.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: efb9b556a34dffa408c53a59fac3eab1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Fx_kp_zhuazisz.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 944c3b5eee5c6154ebb52154de25d31e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/fX_pokong_1.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 70bf9d201d119a74890ad0dfe94203bb
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/fX_pokong_4.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 59a7edcf6e5bbae45a08ff717d3ef300
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/fX_pokong_5.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a402a4fd893f0dc4eaa18ca821b19f47
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Fx_UI_guangka_1.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f5a83f79c42f108438c4e5cbe0afb422
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/fx_YJ 1.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c8447105438a50943aaa3e87e1f27470
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/kapo_eye (1).controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2d5903a0ab6f8a54dbd7c57d1b29b21b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/liuguang 2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 43b511601c9512149aa97e48da2580c0
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/liuguang.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 84aaf1adb473c184c8b7b7e4aa8a2c7c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/liuguang_1.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 48015e886a96cee499e16c050c0934fc
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/liuguang_2.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 08c1c37b311de0743b07d91678362333
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/mianban.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 33a664528f76d7b4da58e652d0ad7c01
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/piaodai2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7ee540f98492fa64fb8f8299da43d4ad
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Plane003.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: eef28304de09ca245a2c7a047ee38660
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Plane004.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: bacb1195ea41c6e4a82c3ba854c60377
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/Plane006.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0f72eb205f8ae8748ab3a7c12b52c456
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/xuanfeng.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 28fe96bfcc16d9544a30453abe012108
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/xuanfu.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 290b39595bf11da4b808a4fd6dd49a1c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/yanjing.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 318800d75e870dc4c87472b88f46253c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Animation/zhuazi.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c031cc9fecd28b140bf56323ff6577ae
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/1(1).mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8a3ddf6a68951264ab713a2b55ae0bec
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f0e4b552d73f1d34680aa34d4fc38d6c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/1we.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b9988369a54667b4eaaae064eb70b35b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/2(2).mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9b2f5ebff8596c34db9e659ba3aa4b5b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c379d2631af1a664685fe5f0b6ff03f9
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/222.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8e9bfec6540a4cb438fab97a5b80a6c7
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1edf1f9318eeca244a9eaeeb8a87b9bd
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/arrow_fire02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ef740302b38a0614395a6a28f348ef1c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/CFX2_T_Glow 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 524a4160274e147489f870af10fe13f8
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/CFX2_T_Glow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e4f8892738847f441954446d29436479
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/circle_0002_h.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 671c7d1037a03264781734c4500aac46
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/cloud03_01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ce9ce92308727184f89c9241e053b9d1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/cloud_type_a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 16772e9485ec841468dd1183b71f74ae
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/daoguang01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 714d099e926589d4480c4f57c9e3167e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Dg_10002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 88dd54085acf0c14592f98c80a8702d1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Dg_70001.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 846ad7f80b6a9a44daea613f6bb5f433
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Dg_70002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c8be776ecc708dd4cabacb74e107ce52
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Dg_914.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 23624772ee2e7b0408468755b5894108
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/diandian_00000.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b469970413dac6343a02bcd45215fe4c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/ef_dust_01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: df3c08b130e1d1e43bcda252a6df123b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/EF_Spk2 00002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a66ac7402dda3f84695682e603487a4c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/flare2b_zergpickup.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d781b20f499344f43b8098ff800a67de
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/flare2_red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 404afb32ed1964e4d8d9e9bd943926db
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/flare_yellow_001.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b0273cc4ca44c3941876eaa95c8f6b11
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/flare_yellow_001_h
+      1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d6816288d0ee38d41b645515434db536
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/flare_yellow_001_h.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 258652b9c00fd094c996ad66ad9128cb
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/fx71006_e_a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4b38a003adba87f44870f0e7ff9b211e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/glow_red_001.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 20bc93e085f9346429f815267d31b09a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/glow_red_002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 06ec32a14c57f1f45aacb765f56f1344
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/googlow_orange.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ba49d9665f9badb45a19ad1a7195c1d4
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/grad10_05_mip_0.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 003ba428750ad4a42b6b932ab56e9ce9
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/jizhong_ruiji01_cyf.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1d50a8fa92befd74baae18aa161bbd61
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/lazerbolt1_blue 2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: bf382d20433d3724da647bf5547b1867
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/lazerbolt1_blue 3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 522fa07974b3c49468d63d010f2d4506
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/lazerbolt1_blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5b23985fa018c6c41973187e2a186f1c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/line03_white5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5b930dfacc43dc243927ffb55d200838
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/line03_white5_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ff965a6e564dbe848870ef884cb00062
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/No Name.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7ccda540a0a2f30498aeb4500673b67a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/piaodai1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: bb91b19eec489be4d9310c897422eb82
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/piaodai2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0978f8cff818d2d46b73a54a75b29ece
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/piaodai3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5aa09af812386c64f850c17f4db8a588
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Ray_03_CL.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2aa4391936215a3498bb7d0b0061ce40
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/ray_light_12.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e9f20e3f45828df48a09d1c03c623483
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/ring_glow_007.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 91bd64dd3f6aeed48aa03a3e25a79cc4
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/s5t.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 05e0476fa94d1214cba477c71722a5fd
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Screen_Speed_A.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3d6f335fef9814444a9c15d35c64f410
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/SF4_dds_0081.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4e7e5cad02fb0cd45ae70c15fd218644
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/SF4_dds_0307.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 30287e08d9b775d4da98dd3c89f4644c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/sharp_arrow_006.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 19a4b7911b017fb43a3a9ed78028c7e2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/shockwave02_02_mip_0.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f4a73c9acbb6a2a449b8d98f2fde3476
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/shockwave_fx_3x_yellow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 55c4bd803a7895048b6411bc33fd1484
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/Smoke Toon PRT TEX.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 432189e2a0f6d23428e06214b7e75861
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/trail_line_002_y.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 975f80c33b0c82740b02f453cd141132
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/TT.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 002357003c6e34448bbf82bcf5a1c0b3
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/yh_1028.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a51ca93acd0d4fa4383f785643829fa1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/yh_1029.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ae44becc92346d948a0a4e2f68b53202
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/yh_1030.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f2db1019d8c19844e93fbff52f4302ce
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Materials/zhidan1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e5114b46f2eb11144ac1e440ee47e337
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/1.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: fda214c402f553442b79ef1cc70dde31
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/2(1).FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2f4d85d0e8bb51a4b95a3016339fdcc6
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/32113.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ee4803bd6a861ac4695bf36091301966
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/cjibo.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 61b37393cc0096c418870824213e03ce
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/cone01_20pl.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1ec54973dcc9e9c41b170d61f4d736bb
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/crao.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8e8faf8f0a73a43488a0768c418ec629
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/huang2.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 942fb59d8aa7a38489f42e5abe4a0954
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/PIAN.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9654df1174c41034e879646b0e336ad8
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/pian2.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a4f29c2c0ede1b9468b132241c698bd2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/Plane002.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 21c9c089ba4723f419f522367767a64a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/plane01.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ef78b8d7d50881841b641063b9aaad01
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st1.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7bf6b05ae41948248a2c6b634917d202
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st2.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 61f6ccdc4fcfebd4b860947849b5dbda
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st3.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e648bb776cdb92241b6bb7c1c2830e96
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st4.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 168899e896501664eb38216bf10da79c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st5.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1c3230f0fbaed3a4fbce941d765abcb9
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st6.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ff4a0485bc3e3dd48a13c78e577332be
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st7.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1fa3af4d36b5b4640ab78d0979642697
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st8.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 221ece972f595a74788efd8169646734
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/st9.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 85f3253b0dc486c4d91161a458f43d8e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Model/zhuaji.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: bb754481d3df78049ab33c1fef20a3e8
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/1(1).png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: be6639c2ada81764b8494255cd628690
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ad701d9adc3de164c851a561b697576b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/1we.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: de69cfaedb07ef84a9bff6a642e70dce
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/2(2).png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e10bea4f8cd350444a3e619632fe1334
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 61018ed2a81558145b4c9ed07886c91e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/222.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3e6ad28a1d91e3e4a80d5bb2fee23689
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/arrow_fire02.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 98e1dead23426ae469dc41b28f3821e4
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Body_3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e15853e2fee2ec84fb291df65842008e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/CFX2_T_Glow.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c30c685c39a4229489c372f5960eefbd
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/circle_0002_h.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 691a8d037bccf6f4fb36b2214ecc3fc3
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/cloud03_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0e8b7b448c57549479f6dbec80d6baac
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/cloud_type_a.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7d94dcb75c46e374193f373f4b00149a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/daoguang01.TGA
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3f36d8e69d3fb5945a8b3bc74fab0c79
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Dg_10002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b5a882a14af2d874ca932476d01c2c3a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Dg_70001.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d0697154cb8750d49b64bc1f5458275b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Dg_914.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3ebb73f10a7862e45a5221f1a5201e9b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/diandian_00000.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: aa812b43836c79e459a68830c270f88c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/ef_dust_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 05015625e8e7b2d42a7a7bce4e1b1f27
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/EF_Spk2 00002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 442d26b257e6cae4db7cf4fffc738a2c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/flare2b_zergpickup.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c883e5235c070f544b8bef8ea2e16d7a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/flare2_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 529d7a6eed95aed4ea7464703b23a319
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/flare_yellow_001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 01502a47d0477ca4cacf2aaaba9643dc
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/flare_yellow_001_h.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6eeba31e4488e5e418c3f201703b756e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/fx71006_e_a.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: fa5af6a80ffd00c4eab2404d27288808
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/glow_red_001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c5d37bb6f84861441bded1a01f86341e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/googlow_orange.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0023054caa4af474585161affe8337e3
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/grad10_05_mip_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9a90272da1b57a84e8f8d87d6a4099f6
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/jizhong_ruiji01_cyf.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b17297d2bb19f8647b79ed54182ce29e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/lazerbolt1_blue 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6f587ce677a9e084da282a26249582a1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/lazerbolt1_blue.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f8af85ca05e67274993e27aef01f6594
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/line03_white3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 622bc3bcf7476e9469c342a74da0d300
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/line03_white5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0b91bb109b55d0741a985c0f60bf9727
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/piaodai1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 87d1dea0a028c4644919b26dc2072221
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/piaodai2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ced3ee93b5120fc4da5601ae6a323084
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/piaodai3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8f947edf2574b1946bbb281c85156a2f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Ray_03_CL.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e0562a9231c3ab0418b0c28238ecc0c3
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/ray_light_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1f1e75019f5aa6543995dbd6e5f7c98f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/ring_glow_007.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 15bd2065156985b49b2707f8c0458a7a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/s5t.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3c4dce78ebff89940bcbe126a7617fbc
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Screen_Speed_A.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 64b00c1f4c65af548b424229fbf44f38
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/SF4_dds_0081.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 97627d139f3802b48bc73e4eb1368e9f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/SF4_dds_0307.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 663222feca5d4fb4cb43451da30ab573
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/sharp_arrow_006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2a889aeb58d349643a2ba62c1ecdf83c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/shockwave02_02_mip_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 21f819bf4178ec94eaefcfb8a18c23fb
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/shockwave_fx_3x_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f3bd9415a138ae548aaf88b8dc1d12df
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Smoke Toon PRT TEX.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 87c57f2c61e6fc14bbebda2f87bb6812
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/Sphere 2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6b919be845d40154192012d1ba3c02b0
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/trail_line_002_y.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7a31d7b2d6dba074f846643368828d20
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/TT.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d35f72452044e5646a4c83f16521c78b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/yh_1028.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 393ed25670a3e9147b299022258423a2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/yh_1029.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 09dcab6c151c1fa479d70f55fb5033aa
+    m_Address: Assets/_ABs/LocalDontChange/Effect/act/Textures/zhidan1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 692d713d137ce7a49895270d28815146
+    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f31b5bcfe2d9b4442b0e44544a4dfb3d
+    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 569f9826ff3994f46b981017ed7455d9
+    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 45326bc605b2bd34d858d9e40a24c237
+    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: eb50e0f0292c7484ea112772c1e20dac
+    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 26631a3442dc0a340bb13d79610576cf
+    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1ddabfc9b5d09d843897246be28fe20b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/ekillhit02.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 51ee3354e963fc74fa98c4e1af346c7e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00026.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5c7c3eae436859342b242a8023c0f98a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00029.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 42a6ee95e86b799439cd177fb72b000f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00086.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 47b486ae5a2840c44a6ee554c7c148d5
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00090.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e650f71495743274d9aaf7f24a2527a7
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00095.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f783e15e673b6db4aa0e390d429a19c1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00115.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c3de2699c9b02d64e8c6325de31a411d
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00116.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c5ae4f26099faf742afda577e0b674c2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00153.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e55fd4adc48b6874e9e81cefd1a5a347
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/fangsheguang_00169.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ba513e09277b927409e55720ff8a0f37
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/daji.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 66e72c53eb1d4aa49b8e1a80fe68171e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00026.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 26ca84c195d02d945b690ffb27efbec6
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00029_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d96b1c1637ef045469668397284367c8
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00086_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3c65bbd3596167a43a359ba5247e3699
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00090_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cad769f0f7d0f1743a1ed7fd1f94d55b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00095.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2327af7de20a9ad41bf4273a520da3ff
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00115_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b3ae8cbc99a7c1c4ca1820675a653c53
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00116_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8a1f25550b97ff74bbff88663f62de7d
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00153_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7cd8ee0f19ce1a94886a2b6774a6185e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/fangsheguang/Materials/fangsheguang_00169_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 537831c4cdf4df648bc67004452d44d2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/baoza.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b24f529d97239cf4683043a734259a67
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/glow_00072.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 79a6634217753ef4796ba21f3e60ae89
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/glow_00177.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1126de37e65201947b9b4be3a7a43724
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/glow_00187_1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 18aa8e2f7fd2cd941a7538582ef3af2b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/Materials/baoza.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 01c7b61909940bb4694a871c58c6fcf6
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/Materials/glow_00072.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 52fd12e8cb0e8ef4d85b8b3cf2ef6ab1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/Materials/glow_00072_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 887e9994d60d5f44082a24f4def151f7
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/Materials/glow_00177_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b462454e4ac1e8b46b1e1275a6ccc362
+    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/Materials/glow_00187_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e291f903ee80e1545ae641c893926f5f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/lizi_00015.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e5a8114e2c15de346ade53e1ace99666
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/lizi_00041.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9cc92c63f9eb7904982cd1513d541269
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/lizi_00066.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f9219955868707a4c98838144f6941ed
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/lizi_00108.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 41cefab79e71fe94082c0a98ffe054e0
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/lizi_00188.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b3c6041b5dceb3f46b9e74cd38f3bab1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/Materials/lizi_00015_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 308a2eb4c319af7418d5b27fda21aa8f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/Materials/lizi_00041.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ceaaf7d555a344744be9edd5d1441941
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/Materials/lizi_00066.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 144cf9708a5b734438b58007186fd0cc
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/Materials/lizi_00108_liziba.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6a2e48de12b14774ab78f2beab8e6339
+    m_Address: Assets/_ABs/LocalDontChange/Effect/lizi/Materials/lizi_00188.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ca5a76aec48d35242b216c48ed3144a6
+    m_Address: Assets/_ABs/LocalDontChange/Effect/particles/particles_00012.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7ea10650bca1b434cbd91d9087e50198
+    m_Address: Assets/_ABs/LocalDontChange/Effect/particles/Materials/particles_00012_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 15f1ccc11bfb05544a160448799d463f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/particles/Materials/particles_00012_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2d71c1e542332d64c96a29accd2c8231
+    m_Address: Assets/_ABs/LocalDontChange/Effect/path/path_00178.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5f4fb7061c4ee6141a9d0909125495b7
+    m_Address: Assets/_ABs/LocalDontChange/Effect/path/Materials/path_00178.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cfc8d9da07dd7024ab88b8833f00fe50
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_fire.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1506c98fac3989f46ba2960e8d03556f
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_hit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 60a7e36b5268a4d4188fe569c6b1b843
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_hitground1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b64b2ba12d9e18846aed43d6a6a86986
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_hitground2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 44865b92d02d30a45a33c9493f7f56db
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_xuli1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: fcc8431d414f00a4583975cefcc0e8b1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_xuli2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1ac32a1ecb6f0f946a7421b4a5be9a28
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_xuli3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 418708c1af4c5d4478164c08da1e046b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/misc/fx_dead.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 61b827fbdc6485f49a1f3f56346d316a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/misc/fx_hit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 501ebe0d9e704a642b0283e331516ca0
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/misc/fx_smoke.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 27aaac3a0416bf24990b033a79f57721
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_atk_6_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3cfbe0d702387f841ac7d65f07a8d347
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_1_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 94c9c967079c83d4ebfc6f4228dfe204
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_1_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0849880ca89b2124d814968609df5911
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_1_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 86d5c4802f845c747bc2d8ff5de8ac51
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_1_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a35a4935afc03324297017b5111fafc3
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_2_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c731939270e9d0f45be91d5477678236
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_3_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 49c2c14bfb6b2e1429392dcb95d5ddfd
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_3_1_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 234752573e4dc0e45bdfa89714844893
+    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/player1002/fx_skill_3_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ce3dacbe330eb5646a14696eef75a502
+    m_Address: Assets/_ABs/LocalDontChange/Effect/wenli/wenli_00464.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: df680f3f740b99143b1d0e447e284386
+    m_Address: Assets/_ABs/LocalDontChange/Effect/wenli/Materials/wenli_00464_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f6f965cbe6aa0b04d846c74db7aec8b1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/wuti/wuti_00052.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e4f0d0f427f6d834aa5ae9306744f422
+    m_Address: Assets/_ABs/LocalDontChange/Effect/wuti/wuti_00058.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cc9dc1ca9f2b0f64b9d83f4e2926dd8a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/wuti/Materials/wuti_00052.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f4fe02199ff151940b77af094859d357
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/bloodDrop01.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 96247c70633bd1545acf415622e4e1ad
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/bloodsmoke.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cbca55869ea979e4baa78ed2f85e46a7
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/Blood_Splatter_002.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 98f9240975269fe4ba8b96d82b1ca00d
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/Materials/bloodDrop01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d8dc310e3bd6da0489b97a68267c639a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/Materials/bloodsmoke.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 76a53cf0861c1f144a1da9e897d85fc1
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/Materials/Blood_Splatter_002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c3bdd879154fb50469fd9ee7ea6e7f82
+    m_Address: Assets/_ABs/LocalDontChange/Effect/xue/Materials/Blood_Splatter_xue2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: de9ebe32fc4c1cb47b11d147b344022a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00006.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 36a1e444f996a1644913a58b1ebeb29e
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00056.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 84c616fc08380a24eb9292c79e0ffd1a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00094.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 48deeb99c9bcc8540ab9163e4a3c9f69
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00152.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5ae55d43faa897a429ec5b957acbf82b
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00157.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cb539ecc9bc80be4584561ec1da6a6b2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00161.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a94f2d5776a7f91419758d4ac5874612
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00167.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6c3cc919ed544074f8a706766db53d70
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00187.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9ac62cce5af027647bc836880cccb440
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00007.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9d977985313c17340bc54497b257c213
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00007_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 66e683d7083c3d04e919242714db14a2
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00057_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f9f0afbbd4016d04385ff78a03c995bf
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00094_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 93bf3c353a8a3694d9fe1b10e02a4e33
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00152_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1750341886511bb4ab335c465219020a
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_0016_18.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c2bbc4f95e261bc438440b84fd27027c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00187_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6c58827df477c6540b5cb717ba919302
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_00187_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 04e0284a9ff82d7408cc27ab9c1710d9
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_fire.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2a0dfc8f56173764789380ec843e77f4
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_fire2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c9a405c6943ec5a489336d5098668d9c
+    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_fire3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4a4759a0a6289b74bb118e57bd0d0ad0
+    m_Address: Assets/_ABs/LocalDontChange/Audio/bgms/bgm_battle1.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2c669ba7f0f249947a4ea36e99a78721
+    m_Address: Assets/_ABs/LocalDontChange/Audio/bgms/ui_button_clicked.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 85baace6b22825e49a19dc55230c76f2
+    m_Address: Assets/_ABs/LocalDontChange/Audio/monster2002/hit.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9325a591ab226cb4b8f1166bcfff43e0
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/attack1.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: aa6462a580fe4024eab0bc596959e7f5
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/attack3.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 29e8761c73f2a9e4b8ee9ff85a1c1122
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/attack4.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5499376c64e0ca04fbf691f1bded9675
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/attack5.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c4d40a025994ce34e87398b1edb242ac
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/attack6.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2561c6a1173944644903137ca870a724
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/skill1.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f76a6ae79454d7440b2d628df169ce87
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/skill2.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8effa8ea32acbb54e83c28833f1dd357
+    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/skill3.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels:
     - LocalDontChange
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}

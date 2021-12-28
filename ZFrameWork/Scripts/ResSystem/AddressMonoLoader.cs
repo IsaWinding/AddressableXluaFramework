@@ -12,7 +12,10 @@ public class AddressMonoLoader : MonoBehaviour
     {
         if (go_ == null){
             var go = AssetManager.Instance.Instantiate(Path);
-            go.transform.parent = root.transform;
+            if(root != null)
+                go.transform.parent = root.transform;
+            else
+                go.transform.parent = this.transform;
             go.transform.localPosition = Vector3.zero;
             go.transform.localScale = Vector3.one;
             go_ = go;

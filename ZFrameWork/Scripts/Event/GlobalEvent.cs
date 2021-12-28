@@ -10,12 +10,7 @@ namespace EventG
             info2 = pInfo2;
         }
     }
-    public enum EventType
-    {
-        Default = 0,
-        ValueChange = 1,
-        OnClick = 2,
-    }
+
     public class GlobalEvent
     {
         private static StringKeySender oneSender = new StringKeySender();
