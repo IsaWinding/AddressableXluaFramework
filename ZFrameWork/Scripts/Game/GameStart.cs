@@ -8,6 +8,7 @@ public class GameStart : MonoBehaviour
     void Start()
     {
         SRDebug.Init();
+        //AttributeSetter.LoadDataFromFile("Assets/_ABs/LocalDontChange/AssetFiles/Attribute1.asset");
         UnityEngine.SceneManagement.SceneManager.LoadScene("1_GameUpdate");
     }
 }

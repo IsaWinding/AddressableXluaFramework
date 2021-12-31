@@ -16,77 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 60bfad35b66f69d41be7ff854f447f75
-  m_SerializeEntries:
-  - m_GUID: 2468dffc26531c74ebbed3b0eab35eec
-    m_Address: Assets/_ABs/LocalDontChange/Prefabs/Player-URP.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: 90b031ee6cdea2e4da65c1c54946b93e
-    m_Address: Assets/_ABs/LocalDontChange/Effect/Prefabs/fx_xuanfengzhan.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: c24cc860351abca4eb03f56f3a2035a7
-    m_Address: Assets/_ABs/LocalDontChange/TLAssets/TL_Test_Skill2.playable
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: c5fadf8be9c792c428bbfd44f6696e0b
-    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/glow_00001.tga
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: d1dd84e6ddcd375489349797e50152e2
-    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang_00002.tga
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: ae2c960b1db5174428ed94d9983d3291
-    m_Address: Assets/_ABs/LocalDontChange/AnimatorCtrls/playerURpCtrl.controller
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: 7edfdbc87822c704ea308825002e1f4d
-    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/Materials/yanhuo_luqi.mat
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: 1c70c69aeec1d804b86634d9b333b822
-    m_Address: Assets/_ABs/LocalDontChange/TLAssets/TL_Test.playable
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: eb7be31c2675c6847819cd3d12257961
-    m_Address: Assets/_ABs/LocalDontChange/Audio/player1002/attack2.ogg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: dd97ba3ee55eea346b83da05ef266f83
-    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang_xuanfen03.mat
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: 6d68e3811e256a449a94eed34044ed79
-    m_Address: Assets/_ABs/LocalDontChange/Effect/yanhuo/yanhuo_00150.tga
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: b7cd7b9c4529bfa4bb7b5c14a808713c
-    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang_xuanfen.mat
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: 00f4aa59472d11645b99bd2f23e67ee5
-    m_Address: Assets/_ABs/LocalDontChange/Effect/glow/Materials/glow_xuanfen02.mat
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
-  - m_GUID: 3456c794846428e41bd5e85ffaaaa13e
-    m_Address: Assets/_ABs/LocalDontChange/Effect/daoguang/daoguang_00001.tga
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 092fcd17c26f4474faba8f129e7e5f9c, type: 2}
   m_SchemaSet:
