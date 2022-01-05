@@ -77,7 +77,7 @@ GameObject:
   m_Component:
   - component: {fileID: 164401917976310721}
   - component: {fileID: 3723533207975709526}
-  - component: {fileID: 1207308237}
+  - component: {fileID: 2053131230}
   m_Layer: 0
   m_Name: Player-URP
   m_TagString: Untagged
@@ -121,7 +121,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1207308237
+--- !u!114 &2053131230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,10 +130,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 164401917976310718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d829e16a26f44741bf69e86a013d150, type: 3}
+  m_Script: {fileID: 11500000, guid: c2830e237de80364a81a0768f1e20215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 0
+  aniDatas:
+  - type: 1
+    name: Idle
+  - type: 2
+    name: Move
+  - type: 3
+    name: Jump
+  - type: 4
+    name: Attack
+  - type: 5
+    name: Death
 --- !u!1 &3223353045629101491
 GameObject:
   m_ObjectHideFlags: 0

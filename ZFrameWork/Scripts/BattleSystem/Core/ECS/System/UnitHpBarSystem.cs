@@ -15,7 +15,8 @@ public class UnitHpBarSystem : ReactiveSystem<BattleEntity>
             var parentRoot = e.model.gameObject;
             var go = AssetManager.Instance.Instantiate(e.unitHpBarResName.resName);
             go.transform.SetParent(parentRoot.transform, false);
-            go.transform.SetPositionAndRotation(Vector3.up*3, Quaternion.identity);
+            go.transform.localPosition = Vector3.zero;
+            go.transform.rotation = Quaternion.identity;
             e.ReplaceUnitHpBar(go);
         }
     }

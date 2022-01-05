@@ -17,7 +17,11 @@ public class ClickCreateUnitSystem : ReactiveSystem<InputEntity>
         {
             var unit = _battleContext.CreateEntity();
             unit.isCanMove = true;
-            unit.AddPosition(e.mouseDown.position);
+
+            var x = Random.Range(-10f, 10f);
+            var z = Random.Range(-10f, 10f);
+            unit.AddPosition(new Vector3(x, 0, z));
+
             unit.AddUnitHpAttribute(new AttributeValue(100,100,1));
             unit.AddUnitMpAttribute(new AttributeValue(100, 100,1));
             unit.AddUnitAtkAttribute(new AttributeValue(10));
@@ -29,10 +33,22 @@ public class ClickCreateUnitSystem : ReactiveSystem<InputEntity>
             var campRandom = Random.Range(0,3);
             unit.AddCamp( (CampType)campRandom);
             unit.AddAIState(AIStateType.Idle);
-
-            unit.AddModelAnimation("Attack");
+            unit.AddModelAnimation( AniNameType.Idle,null);
             unit.AddDirection(Random.Range(0,360));
+            var pathType = PathType.Loop;
+            var pathVector3s = new List<Vector3> { new Vector3(-5,0,-5), new Vector3(-15, 0, -12) };
+            var paths = AIPath.GetPathsByVector3s(pathVector3s);
+            PathPoint firstPoint;
+            AIPath.InitPath(paths, pathType, out firstPoint);
+
+            unit.AddUnitPartrolPath(paths);
+            unit.AddUnitPartrolPoint(true,firstPoint);
+            unit.AddUnitPartrolType(pathType);
+            unit.isUnitPartrolEnable = true;
+
             unit.AddUnitHpBarResName("Assets/_ABs/LocalDontChange/Prefabs/HpBar.prefab");
+            unit.AddUnitHpHeight(3);
+
             unit.AddModelResName("Assets/_ABs/LocalDontChange/Prefabs/Player-URP.prefab");
         }
     }

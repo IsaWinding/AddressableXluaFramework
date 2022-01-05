@@ -15,22 +15,28 @@ public static class BattleComponentsLookup {
     public const int Direction = 4;
     public const int ModelAnimation = 5;
     public const int Model = 6;
-    public const int ModelResName = 7;
-    public const int MoveFinish = 8;
-    public const int MoveTarget = 9;
-    public const int Position = 10;
-    public const int UnitAtkAttribute = 11;
-    public const int UnitAtkRangeAttribute = 12;
-    public const int UnitAtkSpeedAttribute = 13;
-    public const int UnitDefAttribute = 14;
-    public const int UnitHpAttribute = 15;
-    public const int UnitHpBar = 16;
-    public const int UnitHpBarResName = 17;
-    public const int UnitMoveSpeedAttribute = 18;
-    public const int UnitMpAttribute = 19;
-    public const int UnitWarningRangeAttribute = 20;
+    public const int ModelRes = 7;
+    public const int ModelResName = 8;
+    public const int MoveFinish = 9;
+    public const int MoveTarget = 10;
+    public const int Position = 11;
+    public const int UnitAtkAttribute = 12;
+    public const int UnitAtkRangeAttribute = 13;
+    public const int UnitAtkSpeedAttribute = 14;
+    public const int UnitDefAttribute = 15;
+    public const int UnitHpAttribute = 16;
+    public const int UnitHpBar = 17;
+    public const int UnitHpBarResName = 18;
+    public const int UnitHpHeight = 19;
+    public const int UnitMoveSpeedAttribute = 20;
+    public const int UnitMpAttribute = 21;
+    public const int UnitPartrolEnable = 22;
+    public const int UnitPartrolPath = 23;
+    public const int UnitPartrolPoint = 24;
+    public const int UnitPartrolType = 25;
+    public const int UnitWarningRangeAttribute = 26;
 
-    public const int TotalComponents = 21;
+    public const int TotalComponents = 27;
 
     public static readonly string[] componentNames = {
         "AIState",
@@ -40,6 +46,7 @@ public static class BattleComponentsLookup {
         "Direction",
         "ModelAnimation",
         "Model",
+        "ModelRes",
         "ModelResName",
         "MoveFinish",
         "MoveTarget",
@@ -51,8 +58,13 @@ public static class BattleComponentsLookup {
         "UnitHpAttribute",
         "UnitHpBar",
         "UnitHpBarResName",
+        "UnitHpHeight",
         "UnitMoveSpeedAttribute",
         "UnitMpAttribute",
+        "UnitPartrolEnable",
+        "UnitPartrolPath",
+        "UnitPartrolPoint",
+        "UnitPartrolType",
         "UnitWarningRangeAttribute"
     };
 
@@ -64,6 +76,7 @@ public static class BattleComponentsLookup {
         typeof(DirectionComponent),
         typeof(ModelAnimationComponent),
         typeof(ModelComponent),
+        typeof(ModelResComponent),
         typeof(ModelResNameComponent),
         typeof(MoveFinish),
         typeof(MoveTargetComponent),
@@ -75,8 +88,13 @@ public static class BattleComponentsLookup {
         typeof(UnitHpAttribute),
         typeof(UnitHpBarComponent),
         typeof(UnitHpBarResNameComponent),
+        typeof(UnitHpHeight),
         typeof(UnitMoveSpeedAttribute),
         typeof(UnitMpAttribute),
+        typeof(UnitPartrolEnable),
+        typeof(UnitPartrolPathComponent),
+        typeof(UnitPartrolPoint),
+        typeof(UnitPartrolType),
         typeof(UnitWarningRangeAttribute)
     };
 }

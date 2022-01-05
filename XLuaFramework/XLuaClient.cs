@@ -89,7 +89,7 @@ public class XLuaClient : MonoBehaviour
     public string GetAddressableLuaString(string filePath)
     {
         var addressTxtPath = GetAddressableLuaTxtPath(filePath);
-        Debug.LogError("addressTxtPath" + addressTxtPath);
+        //Debug.LogError("addressTxtPath" + addressTxtPath);
         var luaAssetText = AssetManager.Instance.LoadAsset<TextAsset>(addressTxtPath);
         return luaAssetText.text;
     }

@@ -25,10 +25,10 @@ public class UnitMoveSystem : IExecuteSystem,ICleanupSystem
             var newRot = Quaternion.LookRotation(dir.normalized,Vector3.up);
             e.ReplaceDirection(newRot.eulerAngles.y);
 
-            e.ReplaceModelAnimation("Move");
+            e.ReplaceModelAnimation(AniNameType.Move,null);
             if (dir.magnitude <= 0.5f)
             {
-                e.ReplaceModelAnimation("Idle");
+                e.ReplaceModelAnimation(AniNameType.Idle,null);
                 e.RemoveMoveTarget();
                 e.isMoveFinish = true;
             }

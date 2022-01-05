@@ -22,14 +22,16 @@ public partial class Contexts : Entitas.IContexts {
     static Contexts _sharedInstance;
 
     public BattleContext battle { get; set; }
+    public BattleFieldContext battleField { get; set; }
     public DebugContext debug { get; set; }
     public GameContext game { get; set; }
     public InputContext input { get; set; }
 
-    public Entitas.IContext[] allContexts { get { return new Entitas.IContext [] { battle, debug, game, input }; } }
+    public Entitas.IContext[] allContexts { get { return new Entitas.IContext [] { battle, battleField, debug, game, input }; } }
 
     public Contexts() {
         battle = new BattleContext();
+        battleField = new BattleFieldContext();
         debug = new DebugContext();
         game = new GameContext();
         input = new InputContext();
@@ -68,6 +70,7 @@ public partial class Contexts {
     public void InitializeContextObservers() {
         try {
             CreateContextObserver(battle);
+            CreateContextObserver(battleField);
             CreateContextObserver(debug);
             CreateContextObserver(game);
             CreateContextObserver(input);

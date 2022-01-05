@@ -14,11 +14,14 @@ public class LoginPanelCtrl : UICtrlBase
             });
         });
         this.AddEventListener("ClickContinue", (obj) => {
-            AssetManager.Instance.LoadSceneAsync("Assets/_ABs/LocalDontChange/Scenes/gameLv02.unity", (oSceneIns) => {
-                UnityEngine.Debug.LogError("load finish");
-            }, (oProgress) => {
-                UnityEngine.Debug.LogError("oProgress" + oProgress);
-            });
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("4_BattleMap");
+
+            //AssetManager.Instance.LoadSceneAsync("Assets/_ABs/LocalDontChange/Scenes/gameLv02.unity", (oSceneIns) => {
+            //    UnityEngine.Debug.LogError("load finish");
+            //}, (oProgress) => {
+            //    UnityEngine.Debug.LogError("oProgress" + oProgress);
+            //});
         });
     }
 }

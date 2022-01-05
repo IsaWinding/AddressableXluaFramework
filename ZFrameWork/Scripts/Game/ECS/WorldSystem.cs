@@ -17,18 +17,22 @@ public class BattleSystem : Feature
     public BattleSystem(Contexts contexts) : base("BattleSystem")
     {
         //Battle
-        Add(new ClickCreateUnitSystem(contexts));
+        //Add(new ClickCreateUnitSystem(contexts));
         Add(new UnitSystem(contexts));
         Add(new UnitModelSystem(contexts));
         Add(new UnitPositionSystem(contexts));
         Add(new UnitDirectionSystem(contexts));
-        Add(new ClickMoveUnitSystem(contexts));
+        //Add(new ClickMoveUnitSystem(contexts));
         Add(new UnitMoveSystem(contexts));
         Add(new UnitAnimationSystem(contexts));
         Add(new UnitHpBarSystem(contexts));
         Add(new UnitHpBarUpdateSystem(contexts));
-        Add(new UnitAIPolicySystem(contexts));
-        Add(new UnitAISystem(contexts));
        
+        Add(new UnitAISystem(contexts));
+        Add(new UnitAIPolicySystem(contexts));
+        Add(new UnitPartolSystem(contexts));
+        Add(new UnitDeadSystem(contexts));
+        Add(new UnitCreateSystem(contexts));
+        Add(new UnitBattleInitSystem(contexts));
     }
 }

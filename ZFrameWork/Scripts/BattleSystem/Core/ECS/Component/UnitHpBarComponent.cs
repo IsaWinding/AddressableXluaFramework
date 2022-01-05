@@ -12,3 +12,9 @@ public class UnitHpBarComponent : IComponent
 public class UnitHpBarResNameComponent : IComponent {
     public string resName;
 }
+
+[Battle]
+public class UnitHpHeight : IComponent
+{
+    public float height;
+}

@@ -11,17 +11,19 @@ public partial class BattleEntity {
     public ModelAnimationComponent modelAnimation { get { return (ModelAnimationComponent)GetComponent(BattleComponentsLookup.ModelAnimation); } }
     public bool hasModelAnimation { get { return HasComponent(BattleComponentsLookup.ModelAnimation); } }
 
-    public void AddModelAnimation(string newName) {
+    public void AddModelAnimation(AniNameType newAniType, System.Action newOnAction) {
         var index = BattleComponentsLookup.ModelAnimation;
         var component = (ModelAnimationComponent)CreateComponent(index, typeof(ModelAnimationComponent));
-        component.Name = newName;
+        component.AniType = newAniType;
+        component.onAction = newOnAction;
         AddComponent(index, component);
     }
 
-    public void ReplaceModelAnimation(string newName) {
+    public void ReplaceModelAnimation(AniNameType newAniType, System.Action newOnAction) {
         var index = BattleComponentsLookup.ModelAnimation;
         var component = (ModelAnimationComponent)CreateComponent(index, typeof(ModelAnimationComponent));
-        component.Name = newName;
+        component.AniType = newAniType;
+        component.onAction = newOnAction;
         ReplaceComponent(index, component);
     }
 

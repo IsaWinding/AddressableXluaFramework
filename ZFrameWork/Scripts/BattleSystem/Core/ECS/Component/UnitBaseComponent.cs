@@ -22,9 +22,15 @@ public class DirectionComponent : IComponent{
     public float value;
 }
 
-//模型的实例物体
+//战斗的实例物体
 [Battle]
 public class ModelComponent : IComponent
+{
+    public GameObject gameObject;
+}
+//加载的模型资源
+[Battle]
+public class ModelResComponent : IComponent
 {
     public GameObject gameObject;
 }
@@ -37,7 +43,8 @@ public class ModelResNameComponent : IComponent{
 //模型的动画名称
 [Battle]
 public class ModelAnimationComponent : IComponent {
-    public string Name;
+    public AniNameType AniType;
+    public System.Action onAction; 
 }
 
 

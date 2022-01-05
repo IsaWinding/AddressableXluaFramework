@@ -6,7 +6,6 @@ public class GameController : MonoBehaviour
 {
     // 存放系统集的最高节点，当然它本身也是个系统集
     Systems _systems;
-    Systems _battleSystems;
     private void Start()
     {
         // 获取当前的环境组Contexts，里面有game环境和input环境
@@ -17,10 +16,6 @@ public class GameController : MonoBehaviour
         // 初始化，会执行所有实现IInitialzeSystem的Initialize方法
         // 当然这边就会创建那个拥有DebugMessageComponent的Entity
         _systems.Initialize();
-
-        var battleFeature_ = new Feature("BattleSystem");
-        _battleSystems = battleFeature_.Add(new BattleSystem(contexts));
-        _battleSystems.Initialize();
     }
 
     private void Update()
@@ -30,7 +25,6 @@ public class GameController : MonoBehaviour
         //  执行系统集中的所有Cleanup方法
         _systems.Cleanup();
 
-        _battleSystems.Execute();
-        _battleSystems.Cleanup();
+       
     }
 }

@@ -19,6 +19,7 @@ public class UnitModelSystem : ReactiveSystem<BattleEntity>
             var go = AssetManager.Instance.Instantiate(e.modelResName.Value);
             go.transform.SetParent(parentRoot.transform,false);
             go.transform.SetPositionAndRotation(Vector3.zero,Quaternion.identity);
+            e.ReplaceModelRes(go);
         }
     }
 

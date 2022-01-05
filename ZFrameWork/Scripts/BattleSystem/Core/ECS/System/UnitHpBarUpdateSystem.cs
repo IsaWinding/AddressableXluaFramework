@@ -16,6 +16,7 @@ public class UnitHpBarUpdateSystem : ReactiveSystem<BattleEntity>
             var hpBar = e.unitHpBar.gameObject.GetComponent<HpBar>();
             var hpAttribute = e.unitHpAttribute;
             hpBar.SetHp(hpAttribute.Value.Value, hpAttribute.Value.Max);
+            hpBar.SetHeight(e.unitHpHeight.height);
         }
     }
 

@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c3f7ce49060f54c95c723423a382d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  max: 58
   forward: {fileID: 5631596836098116588}
   text: {fileID: 5631596836494396031}
 --- !u!1 &5631596836374114656
