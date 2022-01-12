@@ -95,6 +95,7 @@ class BaseLoader
         this.handle = Addressables.LoadAssetAsync<T>(name);
         T obj = this.handle.WaitForCompletion() as T;
         this.isLoad = false;
+        this.asset_ = obj;
         return obj;
     }
     public virtual void LoadAsync<T>(System.Action<UnityEngine.Object, BaseLoader> pCallBack) where T : UnityEngine.Object
@@ -110,8 +111,7 @@ class BaseLoader
                     OnFinish(asset_, this);
                     Addressables.Release(handle);
                 }
-                else
-                {
+                else{
                     Release();
                 }
                 this.isLoad = false;

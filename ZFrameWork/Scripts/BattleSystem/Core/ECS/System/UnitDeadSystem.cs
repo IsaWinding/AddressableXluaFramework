@@ -23,6 +23,7 @@ public class UnitDeadSystem : IExecuteSystem, ICleanupSystem//ReactiveSystem<Bat
         {
             if (e.unitHpAttribute.Value.Value <= 0)
             {
+                e.ReplacePosition(new Vector3(-9999, -999, -999));
                 AssetManager.Instance.FreeGameObject(e.unitHpBar.gameObject);
                 AssetManager.Instance.FreeGameObject(e.modelRes.gameObject);
                 e.model.gameObject.Unlink();

@@ -3,6 +3,13 @@ public class AttributeValue{
     public float Max;//最大的属性数值 -1 为不限制上限
     public float Recover;//该数值的恢复数值(每秒恢复的数量)
 
+    private System.Action<AttributeValue> onChange;
+    public void AddChangeAction(System.Action<AttributeValue> pOnChangeAction) {
+        onChange += pOnChangeAction;
+    }
+    public void RemoveChangeAction(System.Action<AttributeValue> pOnChangeAction) {
+        onChange -= pOnChangeAction;
+    }
     public AttributeValue(float pValue,float pMax = -1,float pRecover = 0) {
         Value = pValue;
         Max = pMax;
@@ -20,6 +27,10 @@ public class AttributeValue{
             Value = 0;
         if (Max != -1 && Value > Max)
             Value = Max;
+        if (onChange != null)
+        {
+            onChange.Invoke(this);
+        }
     }
     public float GetValue(){
         return Value;

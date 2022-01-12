@@ -19,84 +19,84 @@ namespace TimeLine
             return lr;
         }
 
-        public void DrawLine(Transform t, Vector3 start, Vector3 end)
-        {
-            LineRenderer lr = GetLineRenderer(t);
-            lr.SetVertexCount(2);
-            lr.SetPosition(0, start);
-            lr.SetPosition(1, end);
-        }
+        //public void DrawLine(Transform t, Vector3 start, Vector3 end)
+        //{
+        //    LineRenderer lr = GetLineRenderer(t);
+        //    lr.SetVertexCount(2);
+        //    lr.SetPosition(0, start);
+        //    lr.SetPosition(1, end);
+        //}
 
-        public void DrawSector(Transform t, Vector3 center, float angle, float radius)
-        {
-            LineRenderer lr = GetLineRenderer(t);
-            int pointAmount = 100;
-            float eachAngle = angle / pointAmount;
-            Vector3 forward = t.forward;
+        //public void DrawSector(Transform t, Vector3 center, float angle, float radius)
+        //{
+        //    LineRenderer lr = GetLineRenderer(t);
+        //    int pointAmount = 100;
+        //    float eachAngle = angle / pointAmount;
+        //    Vector3 forward = t.forward;
 
-            lr.SetVertexCount(pointAmount);
-            lr.SetPosition(0, center);
-            lr.SetPosition(pointAmount - 1, center);
+        //    lr.SetVertexCount(pointAmount);
+        //    lr.SetPosition(0, center);
+        //    lr.SetPosition(pointAmount - 1, center);
 
-            for (int i = 1; i < pointAmount - 1; i++)
-            {
-                Vector3 pos = Quaternion.Euler(0f, -angle / 2 + eachAngle * (i - 1), 0f) * forward * radius + center;
-                lr.SetPosition(i, pos);
-            }
-        }
+        //    for (int i = 1; i < pointAmount - 1; i++)
+        //    {
+        //        Vector3 pos = Quaternion.Euler(0f, -angle / 2 + eachAngle * (i - 1), 0f) * forward * radius + center;
+        //        lr.SetPosition(i, pos);
+        //    }
+        //}
 
-        public void DrawCircle(Transform t, Vector3 center, float radius)
-        {
-            LineRenderer lr = GetLineRenderer(t);
-            int pointAmount = 100;
-            float eachAngle = 360f / pointAmount;
-            Vector3 forward = t.forward;
+        //public void DrawCircle(Transform t, Vector3 center, float radius)
+        //{
+        //    LineRenderer lr = GetLineRenderer(t);
+        //    int pointAmount = 100;
+        //    float eachAngle = 360f / pointAmount;
+        //    Vector3 forward = t.forward;
 
-            lr.SetVertexCount(pointAmount + 1);
+        //    lr.SetVertexCount(pointAmount + 1);
 
-            for (int i = 0; i <= pointAmount; i++)
-            {
-                Vector3 pos = Quaternion.Euler(0f, eachAngle * i, 0f) * forward * radius + center;
-                lr.SetPosition(i, pos);
-            }
-        }
+        //    for (int i = 0; i <= pointAmount; i++)
+        //    {
+        //        Vector3 pos = Quaternion.Euler(0f, eachAngle * i, 0f) * forward * radius + center;
+        //        lr.SetPosition(i, pos);
+        //    }
+        //}
 
-        public void DrawRectangle(Transform t, Vector3 bottomMiddle, float length, float width)
-        {
-            LineRenderer lr = GetLineRenderer(t);
-            lr.SetVertexCount(5);
+        //public void DrawRectangle(Transform t, Vector3 bottomMiddle, float length, float width)
+        //{
+        //    LineRenderer lr = GetLineRenderer(t);
+        //    lr.SetVertexCount(5);
 
-            lr.SetPosition(0, bottomMiddle - t.right * (width / 2));
-            lr.SetPosition(1, bottomMiddle - t.right * (width / 2) + t.forward * length);
-            lr.SetPosition(2, bottomMiddle + t.right * (width / 2) + t.forward * length);
-            lr.SetPosition(3, bottomMiddle + t.right * (width / 2));
-            lr.SetPosition(4, bottomMiddle - t.right * (width / 2));
-        }
+        //    lr.SetPosition(0, bottomMiddle - t.right * (width / 2));
+        //    lr.SetPosition(1, bottomMiddle - t.right * (width / 2) + t.forward * length);
+        //    lr.SetPosition(2, bottomMiddle + t.right * (width / 2) + t.forward * length);
+        //    lr.SetPosition(3, bottomMiddle + t.right * (width / 2));
+        //    lr.SetPosition(4, bottomMiddle - t.right * (width / 2));
+        //}
 
-        public void DrawRectangle2D(Transform t, float distance, float length, float width)
-        {
-            LineRenderer lr = GetLineRenderer(t);
-            lr.SetVertexCount(5);
+        //public void DrawRectangle2D(Transform t, float distance, float length, float width)
+        //{
+        //    LineRenderer lr = GetLineRenderer(t);
+        //    lr.SetVertexCount(5);
 
-            if (MathTool.IsFacingRight(t))
-            {
-                Vector2 forwardMiddle = new Vector2(t.position.x + distance, t.position.y);
-                lr.SetPosition(0, forwardMiddle + new Vector2(0, width / 2));
-                lr.SetPosition(1, forwardMiddle + new Vector2(length, width / 2));
-                lr.SetPosition(2, forwardMiddle + new Vector2(length, -width / 2));
-                lr.SetPosition(3, forwardMiddle + new Vector2(0, -width / 2));
-                lr.SetPosition(4, forwardMiddle + new Vector2(0, width / 2));
-            }
-            else
-            {
-                Vector2 forwardMiddle = new Vector2(t.position.x - distance, t.position.y);
-                lr.SetPosition(0, forwardMiddle + new Vector2(0, width / 2));
-                lr.SetPosition(1, forwardMiddle + new Vector2(-length, width / 2));
-                lr.SetPosition(2, forwardMiddle + new Vector2(-length, -width / 2));
-                lr.SetPosition(3, forwardMiddle + new Vector2(0, -width / 2));
-                lr.SetPosition(4, forwardMiddle + new Vector2(0, width / 2));
-            }
-        }
+        //    if (MathTool.IsFacingRight(t))
+        //    {
+        //        Vector2 forwardMiddle = new Vector2(t.position.x + distance, t.position.y);
+        //        lr.SetPosition(0, forwardMiddle + new Vector2(0, width / 2));
+        //        lr.SetPosition(1, forwardMiddle + new Vector2(length, width / 2));
+        //        lr.SetPosition(2, forwardMiddle + new Vector2(length, -width / 2));
+        //        lr.SetPosition(3, forwardMiddle + new Vector2(0, -width / 2));
+        //        lr.SetPosition(4, forwardMiddle + new Vector2(0, width / 2));
+        //    }
+        //    else
+        //    {
+        //        Vector2 forwardMiddle = new Vector2(t.position.x - distance, t.position.y);
+        //        lr.SetPosition(0, forwardMiddle + new Vector2(0, width / 2));
+        //        lr.SetPosition(1, forwardMiddle + new Vector2(-length, width / 2));
+        //        lr.SetPosition(2, forwardMiddle + new Vector2(-length, -width / 2));
+        //        lr.SetPosition(3, forwardMiddle + new Vector2(0, -width / 2));
+        //        lr.SetPosition(4, forwardMiddle + new Vector2(0, width / 2));
+        //    }
+        //}
 
         public GameObject go;
         public MeshFilter mf;

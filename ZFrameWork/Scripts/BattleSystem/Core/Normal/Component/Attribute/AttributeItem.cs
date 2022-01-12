@@ -6,8 +6,7 @@ public class AttributeItem
         Type = pType;
         Value = new AttributeValue(pValue, pMax, pRecover);
     }
-    public void OnRecover()
-    {
+    public void OnRecover(){
         Value.OnRecover();
     }
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName ="Creat_NewAttribute")]
+[CreateAssetMenu(menuName ="Creat/NewAttribute")]
 public class AttributeSetter : ScriptableObject{
     public float Hp;
     public float HpRecover;
@@ -9,20 +9,26 @@ public class AttributeSetter : ScriptableObject{
     public float Atk;
     public float Def;
     public float MoveSpeed;
-    public float AtkSpeed;
+    public float AtkCd;
+    public float AtkRange;
+    public float WarnRange;
+    public float FlowRange;
     public static AttributeSetter LoadDataFromFile(string Path){
         var textAsset = AssetManager.Instance.LoadAsset<AttributeSetter>(Path);
         return textAsset;
     }
-    public AttributeC GetAttributeInfo()
+    public AttributeComponent GetAttributeInfo()
     {
-        var attributeInfo = new AttributeC();
+        var attributeInfo = new AttributeComponent();
         attributeInfo.AddAttribute(AttributeType.Hp, Hp, Hp, HpRecover);
         attributeInfo.AddAttribute(AttributeType.Mp, Mp, Mp, MpRecover);
         attributeInfo.AddAttribute(AttributeType.Atk, Atk);
         attributeInfo.AddAttribute(AttributeType.Def, Def);
         attributeInfo.AddAttribute(AttributeType.MoveSpeed, MoveSpeed);
-        attributeInfo.AddAttribute(AttributeType.AtkSpeed, AtkSpeed);
+        attributeInfo.AddAttribute(AttributeType.AtkCd, AtkCd);
+        attributeInfo.AddAttribute(AttributeType.AtkRange, AtkRange);
+        attributeInfo.AddAttribute(AttributeType.WarnRange, WarnRange);
+        attributeInfo.AddAttribute(AttributeType.FlowRange, FlowRange);
         return attributeInfo;
     }
 }

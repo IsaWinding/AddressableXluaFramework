@@ -9,31 +9,44 @@ public class AssetManager
 {
     private static AssetManager instance;
     public static AssetManager Instance { get { if (instance == null) instance = new AssetManager();return instance; } }
+    private UnityEngine.GameObject poolGO;
     /// <summary>
     /// 缓存对象根节点
     /// </summary>
-    public UnityEngine.Transform PoolRoot;
+    public UnityEngine.Transform PoolRoot { 
+        get {
+            if (poolGO == null){
+                poolGO = FindOrNewAssetPool();
+            }
+            return poolGO.transform;
+        }
+    }
     private Dictionary<string, GameObjectLoader> pools = new Dictionary<string, GameObjectLoader>();
-   
+
+    private GameObject FindOrNewAssetPool() {
+        UnityEngine.GameObject poolNodeGo;
+        poolNodeGo = GameObject.Find("[Asset Pool]");
+        if (poolNodeGo == null)
+        {
+            poolNodeGo = new GameObject("[Asset Pool]");
+        }
+        poolNodeGo.transform.localPosition = Vector3.zero;
+        poolNodeGo.transform.localScale = Vector3.one;
+        poolNodeGo.transform.localRotation = Quaternion.identity;
+        if (Application.isPlaying)
+            GameObject.DontDestroyOnLoad(poolNodeGo);
+        return poolNodeGo;
+
+    }
     /// <summary>
     /// 缓存查找表
     /// </summary>  
     private Dictionary<GameObject, GameObjectLoader> lookup = new Dictionary<GameObject, GameObjectLoader>();
     public AssetManager()
     {
-        UnityEngine.GameObject poolNodeGo;
-        poolNodeGo = GameObject.Find("[Asset Pool]");
-        if (poolNodeGo == null)
-        {
-            poolNodeGo = new GameObject("[Asset Pool]");
-          
+        if (poolGO == null){
+            poolGO = FindOrNewAssetPool();
         }
-        UnityEngine.Transform poolNode = poolNodeGo.transform;
-        poolNode.transform.localPosition = Vector3.zero;
-        poolNode.transform.localScale = Vector3.one;
-        poolNode.transform.localRotation = Quaternion.identity;
-        if (Application.isPlaying)
-            GameObject.DontDestroyOnLoad(poolNode);
         //启动定时器，定时清理缓存池里的缓存
     }
 

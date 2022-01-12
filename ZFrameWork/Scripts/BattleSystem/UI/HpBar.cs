@@ -11,7 +11,21 @@ public class HpBar : MonoBehaviour
     private float forwardOrWith;
     private float hpBarHeight = 3f;
     private void Awake(){}
-
+    private AttributeValue attributeValue;
+    public void BindValueItem(AttributeValue pValue) {
+        attributeValue = pValue;
+        pValue.AddChangeAction(OnAttributeValueChange);
+    }
+    private void OnDestroy()
+    {
+        if(attributeValue!= null)
+        {
+            attributeValue.RemoveChangeAction(OnAttributeValueChange);
+        }
+    }
+    private void OnAttributeValueChange(AttributeValue pValue) {
+        SetHp(pValue.Value, pValue.Max);
+    }
     public void SetHeight(float pHeight){
         hpBarHeight = pHeight;
         this.transform.localPosition = Vector3.up * hpBarHeight;
@@ -23,7 +37,7 @@ public class HpBar : MonoBehaviour
 
     public void SetHp(float pCurHp,float pMaxHp)
     {
-        text.text = pCurHp + "/" + pMaxHp;
+        text.text = (int)pCurHp + "/" + pMaxHp;
         var progress = pCurHp / (pMaxHp * 1f);
         var weight = progress * (max);
         forward.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, weight);// = new Vector3(progress * (max), 0, 0);
@@ -34,4 +48,14 @@ public class HpBar : MonoBehaviour
         this.transform.rotation = Camera.main.transform.rotation;
         //this.transform.LookAt(Camera.main.transform);
     }
+    //private void FixedUpdate()
+    //{
+    //    this.transform.rotation = Camera.main.transform.rotation;
+    //    this.transform.LookAt(Camera.main.transform);
+    //}
+    //private void Update()
+    //{
+    //    this.transform.rotation = Camera.main.transform.rotation;
+    //    //this.transform.LookAt(Camera.main.transform);
+    //}
 }

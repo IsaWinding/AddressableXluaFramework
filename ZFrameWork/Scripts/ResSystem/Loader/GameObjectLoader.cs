@@ -53,6 +53,7 @@ class GameObjectLoader : BaseLoader
         {
             var obj = caches.Pop();
             this.references.Add(obj);
+            obj.SetActive(true);
             return obj;
         }
         else
@@ -80,6 +81,7 @@ class GameObjectLoader : BaseLoader
         this.caches.Push(obj);
         this.references.Remove(obj);
         obj.transform.SetParent(AssetManager.Instance.PoolRoot);
+        obj.SetActive(false);
     }
     public override void Release()
     {

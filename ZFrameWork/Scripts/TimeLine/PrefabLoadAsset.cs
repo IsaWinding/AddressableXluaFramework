@@ -10,18 +10,19 @@ public class PrefabLoadAsset : BaseAsset
     public string AddressPath;//资源路径
     public bool isNeedReLoad;//是否需要每次重新加载
     public bool isParticle;//是否是粒子系统
-    public ExposedReference<Transform> parent;
+
+    public PlayableAssetGO parent;
     public Vector3 offset;
 
     public override BaseBehaviour GetBehaviour(PlayableGraph graph, GameObject go)
     {
         var baseBehaviour = new PrefabLoadBehaviour();
-        baseBehaviour.target_ = target_.Resolve(graph.GetResolver());
+        baseBehaviour.target_ = target_.GetGo(graph, go);
         baseBehaviour.AddressPath = AddressPath;
         baseBehaviour.isNeedReLoad = isNeedReLoad;
         baseBehaviour.isParticle = isParticle;
         baseBehaviour.offset = offset;
-        baseBehaviour.parent = parent.Resolve(graph.GetResolver());
+        baseBehaviour.parent = parent.GetGo(graph, go).transform;
         return baseBehaviour;
     }
 #if UNITY_EDITOR

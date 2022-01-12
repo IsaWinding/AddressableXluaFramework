@@ -8,7 +8,7 @@ public class ScaleAsset : BaseAsset
 	public override BaseBehaviour GetBehaviour(PlayableGraph graph, GameObject go)
 	{
 		ScaleBehaviour baseBehaviour = new ScaleBehaviour();
-		baseBehaviour.target_ = target_.Resolve(graph.GetResolver());
+		baseBehaviour.target_ = target_.GetGo(graph, go);
 		baseBehaviour.start = start;
 		baseBehaviour.end = end;
 		return baseBehaviour;

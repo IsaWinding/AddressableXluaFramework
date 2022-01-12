@@ -53,6 +53,7 @@ public class UnitAISystem : ReactiveSystem<BattleEntity>
                 e.isMoveFinish = true;
                 e.isUnitPartrolEnable = false;
                 e.ReplaceModelAnimation(AniNameType.Dead, null);
+                e.ReplacePosition(new Vector3(-9999, -999, -999));
             }
         }
     }

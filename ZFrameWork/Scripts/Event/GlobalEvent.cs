@@ -27,6 +27,21 @@ namespace EventG
             oneSender.SendMessage(eventType, pObj);
         }
     }
+    public class BattleEnumEvent {
+        private static EnumKeySender oneSender = new EnumKeySender();
+        public static void AddListener(Enum eventType, Action<object> eventHandler)
+        {
+            oneSender.AddListener(eventType, eventHandler);
+        }
+        public static void RemoveListener(Enum eventType, Action<object> eventHandler)
+        {
+            oneSender.RemoveListener(eventType, eventHandler);
+        }
+        public static void SendMessage(Enum eventType, object pObj)
+        {
+            oneSender.SendMessage(eventType, pObj);
+        }
+    }
     public class StringKeySender
     {
         private EventSender<String, object> sender = new EventSender<String, object>();
@@ -48,7 +63,7 @@ namespace EventG
             sender.SendMessage(eventType, pObj);
         }
     }
-    public class OneSender
+    public class EnumKeySender
     {
         private EventSender<Enum, object> sender = new EventSender<Enum, object>();
         public void Clear()

@@ -10,7 +10,7 @@ public class AnimatorAsset : BaseAsset
     public override BaseBehaviour GetBehaviour(PlayableGraph graph, GameObject go)
     {
         var baseBehaviour = new AnimatorBehaviour();
-        baseBehaviour.target_ = target_.Resolve(graph.GetResolver());
+        baseBehaviour.target_ = target_.GetGo(graph, go);
         baseBehaviour.aniName = aniName;
         baseBehaviour.layer = layer;
         return baseBehaviour;

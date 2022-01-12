@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73cb94444f5d0e8428de48fd83a81466, type: 3}
+  m_Name: UnitSoliderB2_2
+  m_EditorClassIdentifier: 
+  attributeSetter: {fileID: 11400000, guid: 01430e30e00b6704596b9b34791fb057, type: 2}
+  stateSetter: {fileID: 11400000, guid: 76e85e38a2aa8414193df62be443e2f3, type: 2}
+  aiPathSetter: {fileID: 11400000, guid: 4beab15fb4c3ba248a46fe2ae01f2891, type: 2}
+  aiPolicyType: 1
+  bornPos: {x: -93.47, y: 0, z: -71.03}

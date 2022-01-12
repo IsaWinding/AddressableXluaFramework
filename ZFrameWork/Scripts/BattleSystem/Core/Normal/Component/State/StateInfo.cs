@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StateInfo{
-    public float x;
-    public float y;
-    public float z;
+    public Vector3 bornPos;
     public CampType campType;
+
     public string Model;
-    public StateInfo(float pX,float pY,float pZ,CampType pCampType) {
+    public string HpBar;
+    public float modelHeight;
+
+    public Vector3 GetPos()
+    {
+        return bornPos;
+    }
+    public StateInfo(Vector3 pBornPos,CampType pCampType) {
         campType = pCampType;
-        x = pX;
-        y = pY;
-        z = pZ;
+        bornPos = pBornPos;
     }
 }

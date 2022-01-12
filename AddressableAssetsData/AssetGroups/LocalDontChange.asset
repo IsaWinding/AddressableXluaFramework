@@ -1467,7 +1467,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - LocalDontChange
   - m_GUID: afd712b1b979e534dac1c5f1d33b8775
-    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Attribute1.asset
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Attributes/AttributeSolder1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalDontChange
@@ -1536,18 +1536,803 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalDontChange
-  - m_GUID: ca53d829c9988844788d9e4155e7ec58
-    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/StateA.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - LocalDontChange
   - m_GUID: a4612b4c0ea973f43aa0ebb7a69e3b52
-    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Unit1.asset
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderB1_1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalDontChange
   - m_GUID: 5e01b6c5078e99b4dbc929ff2a85007c
     m_Address: Assets/_ABs/LocalDontChange/Prefabs/HpBar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a452ce677da10a3428776c0756243e6d
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Paths/AIPath_A1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 71894f242c2310a4ebbd82e221aba700
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Paths/AIPath_A2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f677138cfc6413a47ae8be25b14a5f37
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Paths/AIPath_A3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d7b7ad5691b33644c9fb22316eccd27d
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Paths/AIPath_B1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4beab15fb4c3ba248a46fe2ae01f2891
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Paths/AIPath_B2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b37905b242efb9f46806eab1b8d64452
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Paths/AIPath_B3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d95f03e1ecbff1947bb1d62741a9a413
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Attributes/AttributeHero1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d0caff4e97bc9c64f9586d74854f0eca
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Attributes/AttributeMonster1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 01430e30e00b6704596b9b34791fb057
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Attributes/AttributeSolder2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 37a57a1acbb92364f997ff427f88e7ac
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Attributes/AttributeTower1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4b4c2b28a026f934fb4eb8b890b57118
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/States/StateHeroA1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d16778c435abf7a46a304aeb469a2ee5
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/States/StateMonster_A1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a053b7988badd104ea3e9f1d69aa8e7a
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/States/StateSolider_A.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 76e85e38a2aa8414193df62be443e2f3
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/States/StateSolider_B.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7eb9a14739a7f5644b2b834146865a09
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/States/StateTowerA.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 73e2eca7629acf84eafe697db413e603
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/States/StateTowerB.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 54ba0f9b5db2a694c9253ab7d8f32cc0
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/UnitHeroA1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6457ff97b66a2fb43bf1036904eb1427
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/UnitMonsterA1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 957894eb241ad1d46abbdc53c14980cb
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderA1_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ed2dc970c98eec04e87f419d935b7c43
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderA1_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 72c76c9fedb1e194aaf7c08b184c8c6f
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderA2_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 27f4f7602aec7454bb0a4b56c32ca73c
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderA2_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7b053df7044a6ad41b57a8db042f117a
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderA3_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 791365c3a7d8af14e84865af9012e638
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderA3_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cb66d431c2e836947a82e80a2eefe1e9
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderB1_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9d79a2af0e0a5de43a13328e8ecc0473
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderB2_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c62ecfc6f553f7f439fc83b5b33303d4
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderB2_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f69a036b7543014448d1ff7bf693f389
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderB3_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: df54d6089c831eb4497d6bdd15f9bb4d
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Soliders/UnitSoliderB3_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6725725c625d5c943bb198268f53642d
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA1_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5a07937293e78e44eb446438af2cde39
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA1_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9c64277ee430fb743989932bc1c21273
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA1_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2927b36defccc7c4bb2b075517616c56
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA2_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b71121fcdf46f744db3fe6054527425c
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA2_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6d80d17cd3d65b245baab3e85c9fd772
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA2_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 98744c9179a566643abdc3cd11ab9b02
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA3_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f46f8ba5bb23bbf4ea44997a6ecf9516
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA3_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 08f798ef69fb4d2498548832e1a777a6
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerA3_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 57a90f9a54ed84141a90bcf112bcfcb4
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cf86d7bbf26e4f14dbe1adb4942e10f3
+    m_Address: Assets/_ABs/LocalDontChange/Map/5v5.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: cfe5beb3cc78e2c499097db0d788a4ce
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_background_skybox01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 996c5dbe85d01ba4cb2756f9c571749b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_cube_blue_center_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6cc956b9660ea274596c2c9446b3bebd
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_cube_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ab1d9e44ad8aa86468544bb17bf31d73
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_cube_D_matel.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3012b0ede8351fc4c9a1170871a8a8ee
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_cube_red_center_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e9aaee2cfe4710b4c97c121969386723
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_cube_red_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7ac507bda0a5669419e63662aa368f0b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_deck_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 04259744b63a5e7459a9c8a684d62215
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_base002_deck_red_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 23afa62e90738ad408d1a25646bf5ff4
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff001_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 49b6d7f92e83b6b48aff7b1302530588
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff001_right_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1d94eb8b7d5cb264f8eb457af54ab777
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff002_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7712764544e726a4192a291b755bfe31
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff002_right_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2c8608bcbd747374a827bf9de78a709d
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff003_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7fdcc0e9df47acb46a1297d7c4e67264
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff003_right_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 956e41d3e6760364b842df5edcdec9de
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bluebuff_crystal_D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 430bbcc2429250f4cb59fe952d338dc7
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bush01_dif.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f284fc23540706f44bd358057722a0f9
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_bush02_dif.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ae381d1c50bd6c040aa817d79ed4b3a4
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_fieldgrass_block.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: af1fffa5572051a48b88be1d08e4d00c
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_ground01_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 47c9737cb3be9434e8af6d8d732c5768
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_ground02_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6631ef16d9d75b343bebb009a630c2b1
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_ground03_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1e55cc8488f563e45b27e3b3c9e4334d
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_ground04_newlayout.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ef803af03ebfb9d4384ce33fc069b9b7
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_home_dragon001.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b0395707b1c2f5641b81063d3fb92db5
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_home_dragon002a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 27855e7968868f64baeee890c67971f2
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_home_wall001_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: df88500ae82a75d4b8629449d611b876
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_home_wall002_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e2f0f8756464dc14fa00c1da27ae7696
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_midway_dragon001_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1dfdbf0e5f17e4e41946570fe022029b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_midway_wall001_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5cfc1dd68e0f4824f826f36759fb0f8b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_midway_wall002_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8cf5fe9ac5b77d948934d4b120ea2246
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff001.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ff7a850811210a54a97c2a492fbf804d
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff001_up.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7676ed3619491b642b31964246988638
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 81c9f740eca2aaa41925271a4b075c05
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff002_up.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 10b81d69f132c5f45a6c00a45c8cfeb9
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff003.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3fe2a0e9c0f2db24d87b7f8ce37bc13d
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff003_up.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c7e70df03e2f8d443ac059f6bb1d4b8e
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff004.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4f1596d1f2881994cb5f66639f115146
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff004_up_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 855aba2fd657ab24aaec8e76a1cda8d4
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff005.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6c8cfac88e4937d4f85d0378f64cd4b5
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff005_up_lod.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3344d68add74632498d2af80ac57e2c5
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff006.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5452a27347220984ba5c78dcb3a7110c
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff006_up.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a4e3ec0bc6b959f47bb7f3ba7bf438bd
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_redbuff_bush.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: dadebdaa39a62a8409e777c01fe9d93c
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_road_building01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5352bbbe021e3474c8d601607c46fcab
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_road_wall01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 86d5c4f3c88386d449d5016972994ac6
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_road_wall02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9274128a97067f64e87de5c3bf3425a8
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_road_wall_outside.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d2d88faf7a3082e4a96c02ddff2c2795
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_smalldragon001.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0373c4cf755107e42bd32e0eb9eb21cb
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_smalldragon002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0e1c28b7c14976d49b8c37538e6fcc29
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_tower001_body_d.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a10c40c7ef0680940adb37ef39cb9af6
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_tower001_body_d_red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 93d0d149a11e9414badea6d162b6f2af
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_tower001_body_matel.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f89b0f827ccdcf84a8bf38e492922df6
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_tower001_body_matel_red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 64c751f7a157b4a42b9ea9fd0d979691
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_tower001_crystal_d.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9220b0b4f9185244888acd9f77f6f950
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_tower001_crystal_d_red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c1ff3a80f841c244f82945235c916ba6
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/arena01_waterfall_noise.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 306c451812440dc4f936bcccaad507d7
+    m_Address: Assets/_ABs/LocalDontChange/Map/Materials/_arena01_water001default.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ee64b8f39c012dd4e81d66908be8200f
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_background_skybox01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 012c005afcea45349988d50efd01dc28
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_base002_cube_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 45ae287bb4b5d45469ec1f3b6893409c
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_base002_cube_D_matel.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: a4e805e6ab9bc7f48870e36f7e293c81
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_base002_cube_red_center_D.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 7a519dca6d134cf4bbd86d8d03333b57
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_base002_cube_red_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 019cf8836c5205e47a749230f459df7c
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_base002_deck_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 04c905e54bbf1c04abee06453e64a367
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_base002_deck_red_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: c7afb3c6254556949ae60329913b9ee0
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff001_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4ae9bebf5304fa2429eac13c5c1c774b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff001_right_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 26e5819e2d22fc343be2e8e284ed108f
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff002_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0eefb95a0dd9be44f8ee4fe98c50508a
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff002_right_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4035f1591cdf4a04f8cc86dcda3b96b3
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff003_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 80f71a84b227b204fb7e8c7f016f9d52
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff003_right_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: e1793c566751a2340a850a9adbf6bd9b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bluebuff_crystal_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 159a93e3b1ba9f64a9a8fe15379cdd4e
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bush01_dif.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f9e77243b66196541b78a44004acd194
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_bush02_dif.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: bc5cc30e250a2444dbccce2ba9d5bfad
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_fieldgrass_block.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4f23e66a9820b7845879914e31b8da46
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_ground01_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 686c2345250c03844ac01b23d8b58017
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_ground02_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0faeffab2821d9143bd02dce9954f7f9
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_ground03_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 1a30979ab0ce453409bc9b5e58a9c9e7
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_ground04_newlayout.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 611e210ec94c7534190f580539d593e5
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_home_dragon001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 50db558167801bc4397c0ef41dd8155d
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_home_dragon002a.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4af6bae1f5e8bd743bac542248333591
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_home_wall001_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: b330d92bcb24c5548a74c312964da9ed
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_home_wall002_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5f58dce5314eaf143ab267d9c4a5828f
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_midway_dragon001_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2df2271811c5ba149a04a0aec89d6d95
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_midway_wall001_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 8175d955a45478b42a9afefd25a248f1
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_midway_wall002_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 9d73fef32cf3cf7499d320ef58379a23
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0963ca8537eaca843a535bc1786f7565
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff001_up.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: d2a0abdc89daf8a4bbaf64599647888f
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 63268f88d887ec440abbcf4510d9e97c
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff002_up.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6e9117a4f61ee294bb59bce9f4d56368
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff003.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 2ae756e828c6efa4d81e31f2f0b2f711
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff003_up.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 766e1fa7841690a4b8ec5b7f99f745f4
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff004.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 20d4ad1246008a74490910854be95d97
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff004_up_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 698fa18e9b43c41468f5538f8fdd60c3
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff005.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ee4b980fdd583aa4fa55bbb0d7fba469
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff005_up_lod.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 374755909875eb146a34d1dcf8f26717
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 3ae3f3de01ceb514b899cdc6f1417629
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff006_up.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 955933d92239e2e44b4df04a7728e018
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_redbuff_bush.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 99109334cd3555f469eed2e467ce19d4
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_road_building01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5b77b88a0eaa44a43b0f337e8772e50e
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_road_wall01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 0ec9775e1a1183444975579f376525f7
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_road_wall02.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 721309e6f3e54ab469b135bf4c31e148
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_road_wall_outside.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 00f076eca3a368342942b49122b3bb96
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_smalldragon001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 30472490741a24d428fa327aee617153
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_smalldragon002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 37def3c1aca68054ab96c805cc8ecc3b
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_tower001_body_d.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: ab28364601efd034f8e06bd9ce256200
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_tower001_body_d_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 060542d2937ed8c449c4d9838c06d258
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_tower001_crystal_d.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 122efb4467c6abe4695a7ee117d4fee8
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_tower001_crystal_d_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 04144717ba33bf94bacfb6ecc42af37d
+    m_Address: Assets/_ABs/LocalDontChange/Map/Texture2D/arena01_waterfall_noise.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 29894b10869050c4a9514ac447f401d7
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB1_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 44605a994f7d918458dceb29b73e7ca7
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB1_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 09965880191f380499ae4855ee3d0ef2
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB1_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: fa9cff1c9af1c90439614f2dde522ca1
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB2_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6501b08ab9c19dd45923d8abb17d698e
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB2_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: fce8b920acd79f64c843807a1fa4ada8
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB2_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 5802d8ea25bba0549853f1f26a578f49
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB3_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 6a0a3b333c0b1e34e9f95ce702fa6c8f
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB3_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: f12b2b595353f024182b087db4460de9
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Units/Towers/UnitTowerB3_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocalDontChange
+  - m_GUID: 4fef765003feac040ba85577407921b4
+    m_Address: Assets/_ABs/LocalDontChange/AssetFiles/Skill/Skill1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - LocalDontChange

@@ -20,7 +20,7 @@ public class PrefabLoadBehaviour : BaseBehaviour
     private bool _isCanLoad = false;
     protected override void OnProgress(float pProgress)
     {
-        if (pProgress >= 0.1f && _isCanLoad)
+        if (pProgress >= 0.1f)
         {
             if (_isCanLoad)
             {

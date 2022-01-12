@@ -11,7 +11,7 @@ public class RotationAsset : BaseAsset
     public override BaseBehaviour GetBehaviour(PlayableGraph graph, GameObject go)
     {
         var baseBehaviour = new RotationBehaviour();
-        baseBehaviour.target_ = target_.Resolve(graph.GetResolver());
+        baseBehaviour.target_ = target_.GetGo(graph, go);
         baseBehaviour.start = start;
         baseBehaviour.end = end;
         return baseBehaviour;
